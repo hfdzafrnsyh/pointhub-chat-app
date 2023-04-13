@@ -4,5 +4,5 @@ test chat app backend
 
 ##### ~ ERD 
 <p align=center> 
-  <img src="https://github.com/hfdzafrnsyh/FoodMarket/blob/master/screen/home.png" width=210px />
+  <img src="https://github.com/hfdzafrnsyh/pointhub-chat-app/blob/master/erd.png" width=480px />
 </p>
