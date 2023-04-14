@@ -1,5 +1,4 @@
 const Chat = require('../database/model/ChatSchema');
-const Group = require("../database/model/GroupSchema");
 const Conversation = require("../database/model/ConversationSchema");
 
 module.exports.getChat = async (req, res) => {
@@ -40,10 +39,10 @@ module.exports.createChatUserToUser = async (req, res) => {
         }
 
         let chat = new Chat({
-            conversationId: conversations.id,
+            conversationId: conversations._id,
             userId: req.body.userId,
             message: req.body.message,
-            onDelete: 0
+            deleteMe: 0
         })
 
         await chat.save();
@@ -73,7 +72,7 @@ module.exports.createChatGroup = async (req, res) => {
             userId: req.body.userId,
             groupId: req.query.group,
             message: req.body.message,
-            onDelete: 0
+            deleteMe: 0
         })
 
         await newChat.save();
