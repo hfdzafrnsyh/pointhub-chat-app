@@ -5,7 +5,7 @@ test backend chat-app
 <p align=center> 
  
  ###  API Documentation
-<a href="https://documenter.getpostman.com/view/11632914/2s93RZLphN#a3cc9451-0307-4047-81e4-135fb982b1bb" target="_blank">LINK API POSTMAN DOCS</a>
+<a href="https://documenter.getpostman.com/view/11632914/2s93RZLphN#a3cc9451-0307-4047-81e4-135fb982b1bb" target="_blank">LINK API DOCS</a>
 
 
  <br/>
