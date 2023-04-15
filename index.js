@@ -8,4 +8,4 @@ app.listen(PORT, () => {
     console.log(`Server run in ${PORT}`);
 })
 
-module.exports.handler = serverless(app)
+// module.exports.handler = serverless(app)
