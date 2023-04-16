@@ -15,7 +15,7 @@ async function main() {
     
     mongoose.model('Invoices', schema);
 
-    await mongoose.model('User').findOne(); // Works!
+    await mongoose.model('Invoices').findOne(); // Works!
 }
 
 
