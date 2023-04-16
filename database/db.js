@@ -13,7 +13,7 @@ async function main() {
     await mongoose.connect(`${URI}`);
     console.log("Database Connection Success")
     
-    mongoose.model('Invoice', schema);
+    mongoose.model('Invoices', schema);
 
     await mongoose.model('User').findOne(); // Works!
 }
