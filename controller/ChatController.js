@@ -162,6 +162,7 @@ module.exports.deleteMessageForAll = async (req, res) => {
             code: '500',
             message: 'Internal Server Error'
         })
+        console.log(err)
     }
 
 }
