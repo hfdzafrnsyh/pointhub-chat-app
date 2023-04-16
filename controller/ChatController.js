@@ -148,7 +148,7 @@ module.exports.deleteMessageForAll = async (req, res) => {
             })
         } else {
 
-            await Chat.deleteOne({ _id: req.params.id }, deleteChat)
+            await Chat.deleteOne({ _id: req.params.id },chat)
             res.status(200).json({
                 code: '200',
                 message: 'Delete Successfully'
